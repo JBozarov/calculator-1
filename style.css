@@ -1,0 +1,76 @@
+
+
+.header {
+  background-color: #333;
+  height: 17vh;
+  width: 100%;
+  color: white;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 40px; 
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background-color: #C06F5D;
+  margin: 2px;
+}
+
+
+.container {
+  margin-top: 10vh;
+  height: 20vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+
+.container>div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+input {
+  padding: 5px 0px;
+  align-self: center;
+  min-width: 5%;
+  max-width: 100px;
+  font-size: 25px;
+  font-weight: bold; 
+  text-align: right;
+  resize: horizontal; 
+  overflow: auto;
+}
+
+.operations {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+#button {
+  padding: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+  background-color: darkgreen;
+}
+
+#add, #deduct, #devide, #multiply{
+  padding: 3px 10px;
+}
+
+#reset-button {
+  padding: 3px 13px;
+}
